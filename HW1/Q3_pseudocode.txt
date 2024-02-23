@@ -1,0 +1,16 @@
+Initialize missingRanges
+
+Set next = lower bound of the range (inclusive)
+
+for 0 to IDs.length
+    if IDs[i] > upper break the loop
+    if IDs[i] < next continue;
+    if IDs[i] > next
+        add missingRanges from next to IDs[i]-1
+
+    Update next = current ID + 1
+
+if next <= upper bound:
+    Add missingRanges from next to upper bound
+
+Return missingRanges
