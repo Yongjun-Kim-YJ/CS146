@@ -3,16 +3,16 @@ package CS146.HW1;
 public class Q2 {
     public static int findIndexOfZero(int[] A, int[] B) {
         int left = 0;
-        int right = B.length - 1;
+        int right = B.length-1;
 
         while (left <= right) {
             int mid = left+(right-left+1)/2;
 
             if (B[mid] == 0) {
-                return mid + 1; // Return index of zero counting from 1, 2, 3...
+                return mid + 1; // Return index of zero counting from 1
             } else if (mid > 0 && B[mid-1] < A[mid-1]) {
                 // 0 is to the left of mid
-                right = mid - 1;
+                right = mid-1;
             } else {
                 // 0 is to the right of mid
                 left = mid+1;
