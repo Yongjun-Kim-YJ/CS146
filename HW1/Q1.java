@@ -1,13 +1,6 @@
 package CS146.HW1;
 
 public class Q1 {
-    public static void main(String[] args) {
-        char[] arr = {'a','b','c','C'};
-        Result result = findMedianAndMode(arr);
-        System.out.println("Median: " + result.median);
-        System.out.println("Mode: " + result.mode);
-    }
-
     private static Result findMedianAndMode(char[] arr) {
         if(arr.length<1){ // If array has no element, return (null, null)
             return new Result('\0','\0');
@@ -53,5 +46,12 @@ public class Q1 {
             this.median = median;
             this.mode = mode;
         }
+    }
+
+    public static void main(String[] args) {
+        char[] arr = {'a','b','c','C'};
+        Result result = findMedianAndMode(arr);
+        System.out.println("Median: " + result.median);
+        System.out.println("Mode: " + result.mode);
     }
 }
