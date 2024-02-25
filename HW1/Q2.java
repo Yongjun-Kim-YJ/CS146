@@ -6,6 +6,7 @@ public class Q2 {
         int right = B.length-1;
 
         while (left <= right) {
+            // Set mid as average of left and right
             int mid = left+(right-left+1)/2;
 
             if (B[mid] == 0) {
