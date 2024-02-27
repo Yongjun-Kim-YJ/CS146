@@ -20,6 +20,8 @@ public class Q2 {
             }
         }
 
+        // Add Edge Case when A and B are different without zero
+
         // 0 is not found
         return -1;
     }
