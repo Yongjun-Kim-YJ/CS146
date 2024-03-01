@@ -14,3 +14,5 @@ if next <= upper bound:
     Add missingRanges from next to upper bound
 
 Return missingRanges
+
+Linear Search O(n)
