@@ -21,3 +21,5 @@ for (char c : given array)
             mode = current element
 
         return (median, mode);
+
+Counting Sort O(n)

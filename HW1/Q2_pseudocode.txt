@@ -9,7 +9,6 @@ while left <= right
         then 0 is to the left of mid
         Set right = mid-1;
     else
-
         then 0 is to the right of mid
         Set left = mid+1;
 
