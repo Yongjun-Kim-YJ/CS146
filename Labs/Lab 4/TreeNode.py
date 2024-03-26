@@ -16,3 +16,25 @@ class TreeNode(object):
             self.invertTree(root.right)
         
         return root
+
+# # Test Case
+# tree = TreeNode(1)
+# tree.left = TreeNode(2)
+# tree.right = TreeNode(3)
+# tree.left.left = TreeNode(4)
+# tree.left.right = TreeNode(5)
+
+# print(tree.val)
+# print(tree.left.val)
+# print(tree.right.val)
+# print(tree.left.left.val)
+# print(tree.left.right.val)
+
+# tree.invertTree(tree)
+
+# print()
+# print(tree.val)
+# print(tree.left.val)
+# print(tree.right.val)
+# print(tree.right.left.val)
+# print(tree.right.right.val)
