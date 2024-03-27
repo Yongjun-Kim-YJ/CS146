@@ -25,4 +25,26 @@ public class TreeNode {
 
         return root;
     }
+
+    // public static void main(String[] args) {
+    //     TreeNode tree = new TreeNode(1);
+    //     tree.left = new TreeNode(2);
+    //     tree.right = new TreeNode(3);
+    //     tree.left.left = new TreeNode(4);
+    //     tree.left.right = new TreeNode(5);
+
+    //     System.out.println(tree.val);
+    //     System.out.println(tree.left.val);
+    //     System.out.println(tree.right.val);
+    //     System.out.println(tree.left.left.val);
+    //     System.out.println(tree.left.right.val);
+
+    //     tree.invertTree(tree);
+
+    //     System.out.println(tree.val);
+    //     System.out.println(tree.left.val);
+    //     System.out.println(tree.right.val);
+    //     System.out.println(tree.right.left.val);
+    //     System.out.println(tree.right.right.val);
+    // }
 }
