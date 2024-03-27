@@ -1,4 +1,4 @@
-package CS146.HW1;
+package HW1;
 
 import java.util.ArrayList;
 import java.util.List;

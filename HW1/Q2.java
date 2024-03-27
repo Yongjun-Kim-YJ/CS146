@@ -1,4 +1,4 @@
-package CS146.HW1;
+package HW1;
 
 public class Q2 {
     public static int findIndexOfZero(int[] A, int[] B) {

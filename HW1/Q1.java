@@ -1,4 +1,4 @@
-package CS146.HW1;
+package HW1;
 
 public class Q1 {
     private static Result findMedianAndMode(char[] arr) {
