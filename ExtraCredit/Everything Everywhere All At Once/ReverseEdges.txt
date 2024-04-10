@@ -1,0 +1,16 @@
+Pseudocode:
+function reverseEdges(adjList):
+    Initialize a new adjacency list newAdjList for the reversed graph
+    for each vertex v in adjList:
+        for each neighbor n of vertex v in adjList[v]:
+            Add v to the list of n in newAdjList
+    return newAdjList
+
+Explanation:
+- To reverse the direction of each edge in a directed graph, we need to swap the direction of every edge.
+  If there was an edge from u to v, it should be changed to from v to u.
+- If using an adjacency list, for each vertex, we remove the edge to its neighborand add an edge from the neighbor back to the vertex.
+
+Finding:
+The reversal of edges can significantly impact the behavior and outcome of graph algorithms.
+For instance, the reversal might change the components reachable from a given vertex in a directed graph.
