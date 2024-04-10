@@ -1,8 +1,8 @@
 class FloodFill:
-    def floodFill(self, image, sr, sc, newColor):
+    def floodFill(self, image, sr, sc, color):
         originalColor = image[sr][sc]
         
-        if originalColor == newColor:
+        if originalColor == color:
             return image
         
         m, n = len(image), len(image[0])
@@ -11,7 +11,7 @@ class FloodFill:
             if x<0 or x>=m or y<0 or y>=n or image[x][y]!=originalColor:
                 return
 
-            image[x][y] = newColor
+            image[x][y] = color
 
             dfs(x+1, y)
             dfs(x-1, y)
