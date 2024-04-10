@@ -13,3 +13,7 @@ Explanation:
   if there is an edge from vertex i to vertex j, and 0 otherwise.
 - Initially, all elements of the adjacency matrix are set to 0.
   As we find edges in the adjacency list, we update the corresponding elements in the adjacency matrix to 1.
+
+Finding:
+For undirected graphs, the adjacency matrix is symmetric, and thus contains redundant information.
+This redundancy is absent in adjacency lists.
