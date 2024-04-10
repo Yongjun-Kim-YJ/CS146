@@ -14,3 +14,7 @@ Explanation:
 - To convert it to an adjacency list, we iterate through the matrix and for each i,
    we create a list of all j where matrix[i][j] is not 0 (indicating an edge from i to j).
 - The adjacency list is a list (or dictionary) where each vertex maps to a list of its neighbors.
+
+Finding:
+An adjacency list makes it more efficient to iterate over the edges of a particular vertex,
+which is beneficial for algorithms like DFS (Depth-First Search) and BFS (Breadth-First Search).
