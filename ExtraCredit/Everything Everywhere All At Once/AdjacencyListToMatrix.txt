@@ -1,0 +1,15 @@
+Pseudocode:
+function adjacencyListToMatrix(adjList):
+    Initialize matrix of size N x N with all elements as 0, where N is the number of vertices
+    for each vertex v in adjList:
+        for each neighbor n of vertex v in adjList[v]:
+            matrix[v][n] = 1  // Assuming an unweighted graph
+    return matrix
+
+Explanation:
+- An adjacency list represents each vertex's neighbors in a graph.
+  To convert it to an adjacency matrix, we iterate through each vertex and its neighbors in the adjacency list.
+- The adjacency matrix is a 2D array where the element at matrix[i][j] is 1 (or the weight of the edge if it's a weighted graph)
+  if there is an edge from vertex i to vertex j, and 0 otherwise.
+- Initially, all elements of the adjacency matrix are set to 0.
+  As we find edges in the adjacency list, we update the corresponding elements in the adjacency matrix to 1.
