@@ -1,0 +1,2 @@
+Advantage of Red-Black Tree:
+Guarantees O(log n) time complexity in the worst-case scenario for operations like insertion, deletion, and search.
