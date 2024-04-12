@@ -1,0 +1,12 @@
+1. Kahn's Algorithm:
+- Iteratively removes nodes with no incoming edges.
+- Suitable for detecting cycles and ensuring that all nodes are processed.
+2. BFS (using Kahn's Method):
+- Essentially the same as Kahn's but categorized under BFS due to its level-wise processing.
+3. DFS:
+- Uses recursion to explore nodes, marking nodes temporarily and permanently to detect cycles.
+- The nodes are added to the result list in post-order (reversed at the end).
+
+Results:
+Kahn's and BFS Topological Sort: ['A', 'B', 'D', 'C', 'E', 'G', 'H', 'F']
+DFS Topological Sort: ['A', 'D', 'B', 'E', 'G', 'H', 'C', 'F']
