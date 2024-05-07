@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class canFinish {
+public class CanFinish {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         ArrayList<Integer>[] graph = new ArrayList[numCourses];
         for (int i=0;i<numCourses;i++) {
