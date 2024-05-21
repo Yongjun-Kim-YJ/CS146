@@ -1,4 +1,4 @@
-def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+def MinMeetingRooms(self, intervals: List[List[int]]) -> int:
     if not intervals:
         return 0
     
